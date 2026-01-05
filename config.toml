@@ -1,0 +1,17 @@
+# UDP 接收地址（从 bloXroute 接收 shred 数据）
+shred_listen_addr = "0.0.0.0:7654"
+
+# gRPC 服务地址（流式输出解码后的交易）
+grpc_addr = "0.0.0.0:50051"
+
+# UDP 接收缓冲区大小（128MB）
+recv_buffer_size = 134217728
+
+# Slot 清理阈值
+slot_cleanup_threshold = 128
+
+# 日志级别
+log_level = "info"
+
+# 性能指标输出间隔（秒）
+metrics_interval = 10
